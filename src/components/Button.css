@@ -1,15 +1,14 @@
 /* Button.css */
-:global(.btn) {
+
+.btn {
+    /* 所有通用的样式 */
     color: #fff;
     border: none;
     border-radius: 5px;
 }
 
 .primary {
+    composes: btn;
+    composes: shadow from './author.css';
     background-color: #1aad19;
-}
-
-/* 与上面不加`:local`等价 */
-:local(.warn) {
-    background-color: #e64340
 }

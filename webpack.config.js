@@ -25,5 +25,5 @@ module.exports = {
   }
 }
 
-// loader: "style-loader!css-loader?modules"
+// loader: 'style-loader!css-loader?modules'
 // loader: 'style-loader!css-loader?modules&localIdentName=[name]__[local]--[hash:base64:5]'
