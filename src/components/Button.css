@@ -1,7 +1,15 @@
 /* Button.css */
-.primary {
-    background-color: #1aad19;
+:global(.btn) {
     color: #fff;
     border: none;
     border-radius: 5px;
+}
+
+.primary {
+    background-color: #1aad19;
+}
+
+/* 与上面不加`:local`等价 */
+:local(.warn) {
+    background-color: #e64340
 }
